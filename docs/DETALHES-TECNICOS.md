@@ -1,3 +1,5 @@
+> Language: [English](en/guide.md) | [Português (Brasil)](pt-BR/guide.md)
+
 # Dona Norma
 
 Tira-dúvidas fiscal de MEI e Simples Nacional do Wavern. Responde em linguagem simples e **sempre cita a fonte oficial**. Quando não tem base legal para responder, encaminha para um contador em vez de inventar.
