@@ -1,0 +1,26 @@
+{
+  "name": "@wavern/dona-norma",
+  "version": "0.1.0",
+  "description": "Dona Norma: tira-dúvidas fiscal de MEI e Simples Nacional que sempre cita a fonte oficial.",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.20.0"
+  },
+  "scripts": {
+    "perguntar": "node --env-file-if-exists=.env src/cli.ts",
+    "servidor": "node --env-file-if-exists=.env src/servidor.ts",
+    "verificar-base": "node src/verificar-base.ts",
+    "avaliar": "node --env-file-if-exists=.env src/avaliar.ts",
+    "test": "node --test \"test/**/*.test.ts\"",
+    "typecheck": "tsc",
+    "empacotar-skill": "node src/empacotar-skill.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.9.0"
+  }
+}
